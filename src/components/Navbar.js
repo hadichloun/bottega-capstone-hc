@@ -1,3 +1,10 @@
+// make sure to change links for each comp in navbar to return to the exact path
+// dont forget to add  mobile link as well
+// inside the ul  add classname with value if true, else set it to menu
+// make navbar disappear when on mobile and get hamburger icon to drop down for resize
+// create another link tag for the path /onclick for closeMobileMenu
+// create a function =()=> to set click and check
+
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom';
 import { Button } from './Button';
@@ -17,6 +24,9 @@ function Navbar() {
             setButton(true)
         }
     }
+
+    window.addEventListener('resize', showButton);
+
     return (
         <>
          <nav className="navbar">
@@ -57,3 +67,4 @@ function Navbar() {
 }
 
 export default Navbar
+
