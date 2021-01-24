@@ -1,17 +1,28 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom';
+import { Button } from './Button';
+import './Navbar.css';
 
 function Navbar() {
     const [click, setClick] = useState(false);
+    const [button, setButton] = useState(true)
 
     const handleClick = () => setClick(!click);
     const closeMobileMenu = () => setClick(false);
+
+    const showButton = () => {
+        if(window.innerWidth <= 960) {
+            setButton(false);
+        } else {
+            setButton(true)
+        }
+    }
     return (
         <>
          <nav className="navbar">
              <div className="navbar-container">
                  <Link to="/" className="navbar-logo"> 
-                     Bottega's Grill <i class="fas fa-fire-alt"></i><i class="fas fa-fire"></i><i class="fas fa-circle-notch"></i><i class="fas fa-spinner"></i>
+                 Bottega Grill <i class="fas fa-spinner"></i>
                  </Link>
                  <div className='menu-icon' onClick={handleClick}>
                      <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
@@ -38,6 +49,7 @@ function Navbar() {
                          </Link>
                      </li>
                    </ul>
+                   {button && <Button buttonStyle='btn--outline'>reserve</Button>}
                  </div>
                </nav> 
         </>
