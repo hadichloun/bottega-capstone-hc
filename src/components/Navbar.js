@@ -10,7 +10,7 @@ function Navbar() {
         <>
          <nav className="navbar">
              <div className="navbar-container">
-                 <Link to="/" className="navbar-logo">
+                 <Link to="/" className="navbar-logo"> 
                      Bottega's Grill <i class="fas fa-fire-alt"></i><i class="fas fa-fire"></i><i class="fas fa-circle-notch"></i><i class="fas fa-spinner"></i>
                  </Link>
                  <div className='menu-icon' onClick={handleClick}>
