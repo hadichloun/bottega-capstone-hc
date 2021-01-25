@@ -10,6 +10,7 @@ import { Link } from 'react-router-dom';
 import { Button } from './Button';
 import './Navbar.css';
 
+
 function Navbar() {
     const [click, setClick] = useState(false);
     const [button, setButton] = useState(true)
@@ -32,7 +33,7 @@ function Navbar() {
          <nav className="navbar">
              <div className="navbar-container">
                  <Link to="/" className="navbar-logo"> 
-                 Bottega Grill <i class="fas fa-spinner"></i>
+                  <div>BOTTEGA</div> <i class="fas fa-wine-glass-alt"></i>
                  </Link>
                  <div className='menu-icon' onClick={handleClick}>
                      <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
