@@ -48,7 +48,7 @@
   .nav-item {
     height: 80px;
   }
-  
+  /* styling home/menu/about us in navbar */
   .nav-links {
     color: #fff;
     display: flex;
@@ -64,7 +64,7 @@
   }
   
   .fa-bars {
-    color: white;
+    color:white;
   }
   
   .nav-links-mobile {
