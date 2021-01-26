@@ -23,7 +23,7 @@ function HeroSection() {
                    buttonStyle='btn--primary'
                    buttonSize='btn--large'
                 >
-                   Chefs Secrets <i className='fat fa-play-circle' />
+                   Meet The Chef <i className='far fa-play-circle' />
                 </Button>
             </div>
           </div>
