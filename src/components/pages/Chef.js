@@ -1,13 +1,13 @@
 import React from 'react'
 import '../App.css';
 import { Button } from './Button';
-import './HeroSection.css';
+import './Chef.css';
 
 
-function HeroSection() {
+function Chef() {
     return (
         <div className='hero-container'>
-            <video src="/videos/video-1.mp4" autoPlay loop muted/> 
+            <video src="/videos/video-1.mp4" /> 
             <h1>Sizzling Awaits</h1>
             <p>What are you waiting for?</p>
             <div className="hero-btns">
@@ -18,19 +18,11 @@ function HeroSection() {
                 >
                    GIFT CARDS 
                 </Button>
-                <Button 
-                   className='btns' 
-                   buttonStyle='btn--primary'
-                   buttonSize='btn--large'
-                >
-                   Meet The Chef <i className='far fa-play-circle' />
-                   
-                </Button>
+                
             </div>
           </div>
           
     )
 }
 
-export default HeroSection 
-
+export default Chef 
