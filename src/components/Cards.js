@@ -37,7 +37,7 @@ function Cards() {
             />
             <CardItem
               src='images/img-1.jpg'
-              text='Ride through the Sahara Desert on a special select cut'
+              text='Ride through the Fresh Farm on a special select cut'
               label="Who's hungry?"
               path='/Menu'
             />
