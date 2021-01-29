@@ -26,8 +26,16 @@ function HeroSection() {
                    Meet The Chef <i className='far fa-play-circle' />
                    
                 </Button>
+                <Button 
+                   className='btns' 
+                   buttonStyle='btn--primary'
+                   buttonSize='btn--large'
+                >
+                  practice button <i className='far fa-play-circle' />
+                   
+                </Button>
             </div>
-          </div>
+            </div>
           
     )
 }

@@ -6,6 +6,8 @@ import Home from './components/pages/Home';
 import Menu from './components/pages/Menu';
 import AboutUs from './components/pages/AboutUs';
 import Reservations from './components/pages/Reservations';
+// import Chef from './components/pages/Chef';
+
 
 
 
@@ -16,9 +18,10 @@ function App() {
        <Navbar />
        <Switch>
          <Route path='/' exact component= {Home} />
-         <Route path='/Menu' component={Menu} />
-         <Route path='/about-Us' component={AboutUs} />
+         <Route path='/menu' component={Menu} />
+         <Route path='/about-us' component={AboutUs} />
          <Route path='/reservations' component={Reservations} />
+         {/* <Route path='/chef' component={Chef} /> */}
          </Switch>
         </Router>
     </>
