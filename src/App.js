@@ -6,7 +6,7 @@ import Home from './components/pages/Home';
 import Menu from './components/pages/Menu';
 import AboutUs from './components/pages/AboutUs';
 import Reservations from './components/pages/Reservations';
-// import Chef from './components/pages/Chef';
+import Chef from './components/pages/Chef';
 
 
 
@@ -21,7 +21,7 @@ function App() {
          <Route path='/menu' component={Menu} />
          <Route path='/about-us' component={AboutUs} />
          <Route path='/reservations' component={Reservations} />
-         {/* <Route path='/chef' component={Chef} /> */}
+         <Route path='/chef' component={Chef} /> 
          </Switch>
         </Router>
     </>

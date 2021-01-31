@@ -1,14 +1,20 @@
-// import React from "react";
-// import { Link } from "react-router-dom";
+import React from 'react'
+// import '../App.css';
+// import { Button } from './Button';
+import './Chef.css';
 
-// export default function() {
-//   return (
-//     <div>
-//       <h2>Blog</h2> 
 
-//       <div>
-//         <Link to="/chef">chef</Link>
-//       </div>
-//     </div>
-//   );
-// }
+function Chef() {
+    return (
+        <div className='hero-container'>
+            <video src="/videos/video.mov" /> 
+            
+                
+            </div>
+            
+          
+    )
+}
+
+export default Chef
+
