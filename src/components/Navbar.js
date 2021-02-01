@@ -59,13 +59,15 @@ function Navbar() {
                              About Us
                          </Link>
                      </li>
+                     {/* had to create another reservation button for mobile mode stretch */}
                      <li className='nav-item'>
                          <Link to='/Reservations' className='nav-links-mobile' onClick={closeMobileMenu}>
                              Reservations
                          </Link>
                      </li>
+                     {/* had to create another reservation button for mobile mode stretch */}
                    </ul>
-                   {button && <Button buttonStyle='btn--outline'>RESERVATIONS</Button>}
+                   {button && <Button buttonStyle='btn--outline'>Reservations</Button>}
                  </div>
                </nav> 
         </>

@@ -2,6 +2,6 @@ import React from 'react';
 import '../../App.css';
 
 export default function Reservations() {
-    return <h1 className='reservations'>reservations</h1>
+    return <h1 className='reservations'>Reservations</h1>
     
 }
