@@ -41,6 +41,7 @@ function Footer() {
             <h2>Social Media</h2>
             <Link to='/'>Instagram</Link>
             <Link to='/'>Facebook</Link>
+
           </div>
         </div>
       </div>
@@ -68,6 +69,12 @@ function Footer() {
               aria-label='Instagram'
             >
               <i class='fab fa-instagram' />
+            </Link>
+            <Link>
+            </Link>
+            <Link>
+            </Link>
+            <Link>
             </Link>
           </div>
         </div>
