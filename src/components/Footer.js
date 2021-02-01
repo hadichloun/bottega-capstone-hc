@@ -29,24 +29,18 @@ function Footer() {
         <div className='footer-link-wrapper'>
           <div class='footer-link-items'>
             <h2>About Us</h2>
-            <Link to='/sign-up'>Our Story</Link>
+            <Link to='/AboutUs'>Our Story</Link>
             <Link to='Chef'>Meet the Chef</Link>
-            <Link to='/'>Careers</Link>
-            <Link to='/'>Investors</Link>
           </div>
           <div class='footer-link-items'>
             <h2>Contact Us</h2>
             <Link to='/'>Delivery</Link>
-            <Link to='/'>Support</Link>
-            <Link to='/'>Celeberations</Link>
             <Link to='/'>Catering</Link>
           </div>
           <div class='footer-link-items'>
             <h2>Social Media</h2>
             <Link to='/'>Instagram</Link>
             <Link to='/'>Facebook</Link>
-            <Link to='/'>Youtube</Link>
-            <Link to='/'>Twitter</Link>
           </div>
         </div>
       </div>
@@ -74,30 +68,6 @@ function Footer() {
               aria-label='Instagram'
             >
               <i class='fab fa-instagram' />
-            </Link>
-            <Link
-              class='social-icon-link youtube'
-              to='/'
-              target='_blank'
-              aria-label='Youtube'
-            >
-              <i class='fab fa-youtube' />
-            </Link>
-            <Link
-              class='social-icon-link twitter'
-              to='/'
-              target='_blank'
-              aria-label='Twitter'
-            >
-              <i class='fab fa-twitter' />
-            </Link>
-            <Link
-              class='social-icon-link twitter'
-              to='/'
-              target='_blank'
-              aria-label='LinkedIn'
-            >
-              <i class='fab fa-linkedin' />
             </Link>
           </div>
         </div>
