@@ -30,7 +30,7 @@ function Footer() {
           <div class='footer-link-items'>
             <h2>About Us</h2>
             <Link to='/sign-up'>Our Story</Link>
-            <Link to='/'>Meet the Chef</Link>
+            <Link to='Chef'>Meet the Chef</Link>
             <Link to='/'>Careers</Link>
             <Link to='/'>Investors</Link>
           </div>
