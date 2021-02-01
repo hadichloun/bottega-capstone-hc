@@ -67,7 +67,7 @@ function Navbar() {
                      </li>
                      {/* had to create another reservation button for mobile mode stretch */}
                    </ul>
-                   {button && <Button buttonStyle='btn--outline'>Reservations</Button>}
+                   {button && <Button buttonStyle='btn--outline' path="/Reservations">Reservations</Button>}
                  </div>
                </nav> 
         </>

@@ -13,15 +13,9 @@ function HeroSection() {
             <div className="hero-btns">
                 <Button 
                    className='btns' 
-                   buttonStyle='btn--outline'
-                   buttonSize='btn--large'
-                >
-                   GIFT CARDS 
-                </Button>
-                <Button 
-                   className='btns' 
                    buttonStyle='btn--primary'
                    buttonSize='btn--large'
+                   path="/Chef"
                 >
                    Meet The Chef <i className='far fa-play-circle' />
                    
