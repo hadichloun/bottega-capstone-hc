@@ -7,6 +7,7 @@ import Menu from './components/pages/Menu';
 import AboutUs from './components/pages/AboutUs';
 import Reservations from './components/pages/Reservations';
 import Chef from './components/pages/Chef';
+import Facebook from './components/Facebook';
 
 
 
@@ -22,6 +23,7 @@ function App() {
          <Route path='/about-us' component={AboutUs} />
          <Route path='/reservations' component={Reservations} />
          <Route path='/chef' component={Chef} /> 
+         <Route path='/facebook' component={Facebook} /> 
          </Switch>
         </Router>
     </>

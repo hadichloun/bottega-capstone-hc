@@ -13,7 +13,7 @@ function Cards() {
               src='images/adventure.jpg'
               text='Explore the hidden tenderness inside the Vache '
               label='Adventure'
-              path='/Menu'
+              path='/Facebook'
             />
             <CardItem
               src='images/salmon-topseller.jpg'
