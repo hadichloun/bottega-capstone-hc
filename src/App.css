@@ -17,7 +17,7 @@
   }
   
   .menu {
-    background-image:url('/src/image/img-1 (1).jpg'); 
+    background-image:url('/src/image/3-delmonicos-b.jpg'); 
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -26,11 +26,11 @@
   }
   
   .about-us {
-    background-image:url('/src/image/img-1 (1).jpg'); 
+    background-image:url('/src/image/image-asset.jpeg'); 
     background-position: center;
-    background-size: fill;
+    background-size:center;
     background-repeat: no-repeat;
-    color: #fff;
+    color: black;
     font-size: 100px;
   }
   

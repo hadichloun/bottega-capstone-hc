@@ -7,7 +7,7 @@ import './Chef.css';
 function Chef() {
     return (
         <div className='chef-container'>
-            <video src="/videos/video.mov" muted autoPlay loop /> 
+            <video src="/videos/video.mov"  autoPlay loop /> 
             
                 
             </div>
