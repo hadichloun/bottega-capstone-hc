@@ -1,8 +1,8 @@
 import React from 'react';
-import '../../App.css';
+import '../App.css';
 
-export default function Menu() {
-    return <h1 className='menu'>Menu</h1>
+export default function Subscribe() {
+    return <h1 className='Subscribe'>subscribe</h1>
 }
 
 

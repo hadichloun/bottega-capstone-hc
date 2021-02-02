@@ -7,7 +7,8 @@ import Menu from './components/pages/Menu';
 import AboutUs from './components/pages/AboutUs';
 import Reservations from './components/pages/Reservations';
 import Chef from './components/pages/Chef';
-import Facebook from './components/Facebook';
+import Subscribe from './components/Subscribe';
+
 
 
 
@@ -23,7 +24,7 @@ function App() {
          <Route path='/about-us' component={AboutUs} />
          <Route path='/reservations' component={Reservations} />
          <Route path='/chef' component={Chef} /> 
-         <Route path='/facebook' component={Facebook} /> 
+         <Route path='/subscribe' component={Subscribe} /> 
          </Switch>
         </Router>
     </>

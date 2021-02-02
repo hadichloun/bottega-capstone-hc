@@ -20,6 +20,7 @@ function Footer() {
               name='email'
               type='email'
               placeholder='Your Email'
+              path='/Chef'
             />
             <Button buttonStyle='btn--outline'>Subscribe</Button>
           </form>
