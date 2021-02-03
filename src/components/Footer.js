@@ -26,19 +26,19 @@ function Footer() {
           </form>
         </div>
       </section>
-      <div class='footer-links'>
+      <div className='footer-links'>
         <div className='footer-link-wrapper'>
-          <div class='footer-link-items'>
+          <div className='footer-link-items'>
             <h2>About Us</h2>
             <Link to='/AboutUs'>Our Story</Link>
             <Link to='Chef'>Meet the Chef</Link>
           </div>
-          <div class='footer-link-items'>
+          <div className='footer-link-items'>
             <h2>Contact Us</h2>
             <Link to='/'>Delivery</Link>
             <Link to='/'>Catering</Link>
           </div>
-          <div class='footer-link-items'>
+          <div className='footer-link-items'>
             <h2>Social Media</h2>
             <Link to='/'>Instagram</Link>
             <Link to='/'>Facebook</Link>
@@ -46,36 +46,30 @@ function Footer() {
           </div>
         </div>
       </div>
-      <section class='social-media'>
-        <div class='social-media-wrap'>
-          <div class='footer-logo'>
+      <section className='social-media'>
+        <div className='social-media-wrap'>
+          <div className='footer-logo'>
             <Link to='/' className='social-logo'>
               BOTTEGA
             </Link>
           </div>
 
-          <div class='social-icons'>
+          <div className='social-icons'>
             <Link
-              class='social-icon-link facebook'
+              className='social-icon-link facebook'
               to={'//www.facebook.com' }
               target='_blank'
               aria-label='Facebook'
             >
-              <i class='fab fa-facebook-f' />
+              <i className='fab fa-facebook-f' />
             </Link>
             <Link
-              class='social-icon-link instagram'
+              className='social-icon-link instagram'
               to={'//www.instagram.com' }
               target='_blank'
               aria-label='Instagram'
             >
-              <i class='fab fa-instagram' />
-            </Link>
-            <Link>
-            </Link>
-            <Link>
-            </Link>
-            <Link>
+              <i className='fab fa-instagram' />
             </Link>
           </div>
         </div>

@@ -1,9 +1,21 @@
 import React from 'react';
 import '../../App.css';
+import axios from 'axios';
 
+const uri = 'http://localhost:4000/menu/';
 
 export default function Menu() {
-    return <h1 className='menu'>Menu</h1>
+    function submitMenu() {
+        console.log('menu data submit');
+        const menuData = {
+            category: 'steaks',
+            name: 'ribyeye',
+            price: 38
+        }
+        axios.post(uri + 'add', menuData).then(res => console.log('menu add res', res));
+    }
+
+    return (<button type="button" onClick={submitMenu()}>Menu</button>);
 }
 
 // import React from 'react';
